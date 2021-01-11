@@ -1,0 +1,15 @@
+@mixin ml($num: 10) {
+  margin-left: #{$num}px;
+}
+
+@mixin mr($num: 10) {
+  margin-right: #{$num}px;
+}
+
+@mixin pl($num: 10) {
+  padding-left: #{$num}px;
+}
+
+@mixin pr($num: 10) {
+  padding-right: #{$num}px;
+}
